@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "41214034355",
+    "project_id": "kinkao-test",
+    "storage_bucket": "kinkao-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41214034355:android:385a89a4b5112d8e1e0bc6",
+        "android_client_info": {
+          "package_name": "com.example.kinkao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41214034355-b0enco8seiriag3mmg1rn4ms6fvhsbpe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kinkao",
+            "certificate_hash": "d8d41a349d4ce9f67891006b5ec26c9cd29ab878"
+          }
+        },
+        {
+          "client_id": "41214034355-m2gspun544rdf9koludtgkub2lu45rmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtUIp6xGckNh0N1xP5lZN2kXPBJre5vL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41214034355-m2gspun544rdf9koludtgkub2lu45rmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
