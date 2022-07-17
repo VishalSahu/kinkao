@@ -187,6 +187,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           TextFormField(
                             controller: _emailController,
+                            keyboardType: TextInputType.emailAddress,
                             validator: (value) {
                               if (RegExp(
                                       r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
@@ -226,6 +227,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           TextFormField(
                             controller: _passwordController,
+                            keyboardType: TextInputType.visiblePassword,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
                                 return 'Please enter password';
@@ -268,11 +270,7 @@ class _LoginPageState extends State<LoginPage> {
                               primary:
                                   const Color(0xffffc600), // Background color
                             ),
-                            onPressed: () {
-                              if (_formKey.currentState!.validate()) {
-                                emailLogIn;
-                              }
-                            },
+                            onPressed: emailLogIn,
                             child: const Text(
                               "LOGIN",
                               style: TextStyle(
